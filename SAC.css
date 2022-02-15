@@ -1,0 +1,524 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*---Navigation---*/
+#Navigation
+{
+  position: sticky;
+  /*---Navigation bar will stick to the top---*/
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  /*---Vertical Stacking order of elements that overlap---*/
+}
+
+.navbarNav
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-brand img
+{
+  height: 125px;
+  padding-left: 10px;
+}
+
+.nav-item li a
+{
+  color: black;
+}
+
+.navbar-nav li
+{
+  padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
+}
+
+#Navigation ul li a:hover
+{
+  color: #007bff!important;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.navbar-nav li.nav-item a
+{
+  border: 2px solid black;
+}
+
+.navbar
+{
+  background: #0DA2FF;
+}
+
+.navbar-toggler
+{
+  border: none!important;
+}
+
+.nav-link
+{
+  color: lightgrey!important;
+  font-weight: 600;
+  font-size: 21px;
+  font-family:"Eb Garmond";
+}
+
+/*---Navigation Slider---*/
+#NavSlider
+{
+  width: 100%
+}
+
+.carousel-caption
+{
+  top: 43%;
+  text-align: center;
+  bottom: inital!important;
+  font-family:"Eb Garmond";
+}
+
+.carousel-caption h5
+{
+  font-size: 44px;
+}
+
+.buttons
+{
+    margin-top: 100px
+    margin-left: 1000px;
+}
+
+.btn a
+{
+Border: 2px solid white;
+Padding: 8px 25px;
+Color: white;
+Text-decoration: none;
+Margin-right: 45px;
+Font-size: 16px;
+font-weight: 600;
+Text-transform: uppercase;
+}
+
+.button-one
+{
+font-family: “Eb Garmond”;
+}
+
+.button-one:hover
+{
+background-color: royalblue;
+}
+
+.button-two
+{
+font-family: “Eb Garmond”;
+}
+
+.button-two:hover
+{
+background-color: royalblue;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+/*---About Us Section---*/
+#aboutUs
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+  background-color: #8CD3FF;
+}
+
+.col-md-6 h2
+{
+  color: royalblue;
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 36px;
+}
+
+.col-md-6 h2::after
+{
+  content: '';
+  background: white;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.about-content
+{
+  padding-top: 15px;
+  font-family: "Eb Garmond";
+  font-size: 19px;
+}
+
+.column-md-6
+{
+  border: 4px solid #009DFF;
+}
+
+.container
+{
+  animation: fadeIn 2s;
+}
+
+
+
+/*---SAC Events---*/
+#SACEvents
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Event.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#SACEvents h2
+{
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 36px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#SACEvents h2::after
+{
+  content: '';
+  background: #40E0D0;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.col-md-3 h3
+{
+  padding-top: 10px;
+  font-family: "Eb Garmond";
+  font-size: 28px;
+}
+
+.col-md-3 p
+{
+  font-family: "Eb Garmond";
+  font-size: 18px;
+}
+
+.SACEvents
+{
+  margin-top: 40px;
+}
+
+.icon
+{
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid royalblue;
+  border-radius: 80%;
+  color: white;
+}
+
+#SACEvents p
+{
+  font-family: "Eb Garmond";
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.SACEvents .col-md-3:hover
+{
+  background: #40E0D0;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+/*---SAC Members--*/
+#Members
+{
+  background-color: #8CD3FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#Members h2
+{
+  color: #246D98;
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+#Members h2::after
+{
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.MemberPics
+{
+  margin-top: 25px;
+
+}
+
+.MemberPics .image1
+{
+  opacity: 1;
+  display: block;
+  position: relative;
+}
+
+.MemberPics .image1 img
+{
+  filter:grayscale(1);
+}
+
+.MemberPics .image1 img:hover
+{
+  filter:grayscale(0);
+  transition: 0.6s all;
+  cursor: pointer;
+}
+
+.Members
+{
+  margin-bottom: 40px;
+}
+
+.image1 a
+{
+  display: inline-block;
+  margin: 0 30px;
+  width: 225px;
+  height: 225px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image1 a img
+{
+  width: 100%;
+}
+
+.MemberPics h3
+{
+  color: black;
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.MemberPics h4
+{
+  color: black;
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 18px;
+}
+
+#Members .fab
+{
+  height: 25px;
+  width: 25px;
+  top: 5;
+  color: royalblue;
+  background: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.image1 ul
+{
+   padding: 15px;
+   position: absolute;
+   z-index: 2;
+   top: 155;
+   left:  50%;
+   transform: translateX(-50%);
+   opacity: 0;
+}
+
+.image1 ul li
+{
+  padding: 5px;
+  display: inline-block;
+}
+
+.image1:hover ul
+{
+  opacity: 1;
+}
+
+.image1 ul, .image1 ul li
+{
+  transition: 0.2s;
+}
+
+/*---Application---*/
+.Background
+{
+background-image: url(Application.jpeg);
+ filter: blur(5px);
+ -webkit-filter: blur(5px);
+ height: 50vh;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.Content h6
+{
+  background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 83.5%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+font-family: "Eb Garmond";
+font-size: 19px;
+}
+
+.Title h2
+{
+color: #00CED1;
+position: absolute;
+top: 80.5%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+font-family: "Eb Garmond";
+font-size: 36px;
+}
+
+.Title h2::after
+{
+  content: '';
+  background: white;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+/*---Contact---*/
+#ContactUs
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(Contact-Background.png);
+  background-size: cover;
+  background-position: center;
+  color: white!important;
+  background-attachment: fixed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#ContactUs h2
+{
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 36px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#ContactUs h2::after
+{
+  content: '';
+  background: black;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
+.contact-form
+{
+  padding: 15px;
+  padding-right: 50px;
+}
+
+.contact-form button
+{
+  font-size: 19px;
+  text-align: center;
+  font-family: "Eb Garmond";
+  border-radius: 10px;
+  background-color: #3FE0D0;
+}
+
+.form-control
+{
+  border-radius: 50px;
+
+}
+
+.form-group input
+{
+  font-family: "Eb Garmond";
+}
+
+.form-group textarea
+{
+  font-family: "Eb Garmond";
+}
+
+.col-md-6 h4
+{
+  margin-top: 50px;
+  font-family: "Eb Garmond";
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.button-1
+{
+  font-family: "Eb Garmond";
+  font-size: 25px;
+  text-align: center;
+  color: #40E0D0;
+}
+
+.col-md-6 img
+{
+  margin-left: 200px;
+}
