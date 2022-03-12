@@ -418,7 +418,7 @@ font-size: 19px;
 .Title h2
 {
 color: #00CED1;
-position: absolute;
+position: relative;
 top: 80.5%;
 left: 50%;
 transform: translate(-50%, -50%);
