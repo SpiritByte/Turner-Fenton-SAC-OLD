@@ -1,0 +1,98 @@
+<html>
+
+  <head>
+    <title>SAC Website</title>
+    <link rel= "stylesheet" href= "SAC.css">
+    <script type = "text/javascript" src="SAC.js"></script>
+    <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+      <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+function sendMail()
+{
+  var link = 'mailto: '
+
+  + '&subject=' + document.getElementById('subject').value
+  + '&body=' + document.getElementById('message').value;
+  window.location.href = link;
+}
+</script>
+  </head>
+
+  <body>
+    <!--Navigation Bar-->
+    <secion id = "Navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+ <a class="navbar-brand" href="#"> <img src="LogoFinal2.png"> </a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="collapse navbar-collapse" id="navbarNav">
+   <ul class="navbar-nav ml-auto">
+     <li class="nav-item">
+       <a class="nav-link" href="#Navigation">Home</a>
+     </li>
+     <li>
+       <a class="nav-link" href="#SACEvents">Events</a>
+     </li>
+     <li>
+       <a class="nav-link" href="#Application">Application</a>
+     </li>
+     <li>
+       <a class="nav-link" href="#ContactUs">Contact Us</a>
+     </li>
+   </ul>
+ </div>
+</nav>
+    </section>
+
+<!---Events--->
+<section id = "SACEvents">
+<div class = "restrict">
+  <h2> SAC Events </h2>
+    <div class = "row SACEvents">
+      <!---Dividing the row into 4 parts (12/3)--->
+      <div class = "col-md-3 text-center">
+        <div class = "icon">
+          <i class="fas fa-glass-cheers"></i>
+        </div>
+        <h3> Semi-Formal </h3>
+        <p>Semi-formal is a dance traditionally held in early December.
+          Students book tickets at a convention center rented by SAC for delicious food, quality music, polaroid pictures, and a night to remember!</p>
+      </div>
+
+      <div class = "col-md-3 text-center">
+        <div class = "icon">
+          <i class="fa fa-birthday-cake"></i>
+        </div>
+        <h3> Graduation Dessert </h3>
+        <p>Grad desert is an event for all graduating students.
+          It is a gathering topped with refreshments, a slideshow filled with photos, and even awards!
+          We want to see all the students leaving TFSS off with a smile :)</p>
+      </div>
+
+      <div class = "col-md-3 text-center">
+        <div class = "icon">
+          	<i class = "fas fa-pizza-slice"></i>
+        </div>
+        <h3> Carnival </h3>
+        <p>Carnival is a summer event filled with sunshine, food trucks, and bouncy castles.
+          For two periods, students get a well-deserved break from exam stress by walking around and enjoying the events SAC has set up.</p>
+      </div>
+
+      <div class = "col-md-3 text-center">
+        <div class = "icon">
+          <i class="fa fa-calendar-plus"></i>
+        </div>
+        <h3> Spirit Week </h3>
+        <p>Spirit week is designed to boost school spirit at Turner Fenton.
+          Normally held right before winter break, SAC comes up with creative daily themes for students to follow, such as "ugly sweater day", or "meme day".</p>
+      </div>
+    </div>
+</div>
+
+
+</html>
