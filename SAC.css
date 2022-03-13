@@ -142,7 +142,7 @@ html
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #62B6CB;
+  background-color: #CAE9FF;
 }
 
 .col-md-6 h2
@@ -261,14 +261,14 @@ html
 /*---SAC Members--*/
 #Members
 {
-  background-color: #8CD3FF;
+  background-color: #CAE9FF;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 #Members h2
 {
-  color: #246D98;
+  color: #5FA8D3;
   text-align: center;
   font-family: "Eb Garmond";
   font-size: 36px;
