@@ -58,7 +58,7 @@
 
 .navbar
 {
-  background: #1B4965;
+  background: #104168;
 }
 
 .navbar-toggler
@@ -142,7 +142,7 @@ html
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #CAE9FF;
+  background-color: #5CDB95;
 }
 
 .col-md-6 h2
@@ -261,7 +261,7 @@ html
 /*---SAC Members--*/
 #Members
 {
-  background-color: #CAE9FF;
+  background-color: #5CDB95;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -564,7 +564,7 @@ font-size: 36px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #2F4858;
+  background-color: #104168;
   text-align: center;
 }
 
