@@ -557,3 +557,13 @@ font-size: 36px;
   width: 80px;
   transition: 1s;
 }
+
+/*---Footer Section---*/
+#footer
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+  background-color: #8CD3FF;
+}
+
