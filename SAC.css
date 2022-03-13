@@ -568,3 +568,12 @@ font-size: 36px;
   text-align: center;
 }
 
+.footer-content h2
+{
+  color: #00CED1;
+  padding: 20px;
+  text-align: center;
+  font-family: "Eb Garmond";
+  font-size: 36px;
+}
+
