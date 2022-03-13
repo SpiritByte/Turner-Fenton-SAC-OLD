@@ -522,3 +522,38 @@ font-size: 36px;
 {
   margin-left: 200px;
 }
+
+/*---Side Stickies---*/
+.stickies
+{
+  top: 50%;
+  transform: translateY(-50%);
+  position: sticky;
+  z-index: 1;
+  width: 80px;
+}
+
+.stickies ul
+{
+  padding: initial;
+}
+
+.stickies ul li
+{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  color: white;
+  background: black;
+}
+
+.stickies ul li:hover
+{
+  padding-left: 30px;
+  width: 80px;
+  transition: 1s;
+}
