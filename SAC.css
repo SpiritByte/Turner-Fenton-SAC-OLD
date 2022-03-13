@@ -7,7 +7,7 @@
 /*---Navigation---*/
 #Navigation
 {
-  position: sticky;
+  position: fixed;
   /*---Navigation bar will stick to the top---*/
   top: 0;
   width: 100%;
@@ -58,7 +58,7 @@
 
 .navbar
 {
-  background: #0DA2FF;
+  background: #2F4858;
 }
 
 .navbar-toggler
@@ -564,13 +564,13 @@ font-size: 36px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #8CD3FF;
+  background-color: #2F4858;
   text-align: center;
 }
 
 .footer-content h2
 {
-  color: #00CED1;
+  color: white;
   padding: 20px;
   text-align: center;
   font-family: "Eb Garmond";
