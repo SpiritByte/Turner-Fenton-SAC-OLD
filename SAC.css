@@ -7,7 +7,7 @@
 /*---Navigation---*/
 #Navigation
 {
-  position: fixed;
+  position: sticky;
   /*---Navigation bar will stick to the top---*/
   top: 0;
   width: 100%;
