@@ -562,8 +562,8 @@ font-size: 36px;
 /*---Footer Section---*/
 #footer
 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: black;
   background-color: #5D5C61;
   text-align: center;
@@ -575,6 +575,6 @@ font-size: 36px;
   padding: 20px;
   text-align: center;
   font-family: "Eb Garmond";
-  font-size: 12px;
+  font-size: 15px;
 }
 
