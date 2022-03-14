@@ -58,7 +58,7 @@
 
 .navbar
 {
-  background: #104168;
+  background: #5D5C61;
 }
 
 .navbar-toggler
@@ -142,7 +142,7 @@ html
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #5CDB95;
+  background-color: #379683;
 }
 
 .col-md-6 h2
@@ -262,7 +262,7 @@ html
 /*---SAC Members--*/
 #Members
 {
-  background-color: #5CDB95;
+  background-color: #379683;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -565,7 +565,7 @@ font-size: 36px;
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #104168;
+  background-color: #5D5C61;
   text-align: center;
 }
 
@@ -575,6 +575,6 @@ font-size: 36px;
   padding: 20px;
   text-align: center;
   font-family: "Eb Garmond";
-  font-size: 36px;
+  font-size: 12px;
 }
 
