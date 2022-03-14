@@ -26,7 +26,6 @@
 {
   height: 125px;
   padding-left: 10px;
-  top: 10%;
 }
 
 .nav-item li a
@@ -143,7 +142,7 @@ html
   padding-top: 50px;
   padding-bottom: 50px;
   color: black;
-  background-color: #557A95;
+  background-color: #FFFFFF;
 }
 
 .col-md-6 h2
@@ -263,7 +262,7 @@ html
 /*---SAC Members--*/
 #Members
 {
-  background-color: #557A95;
+  background-color: #FFFFFF;
   padding-top: 50px;
   padding-bottom: 50px;
 }
