@@ -24,8 +24,9 @@
 
 .navbar-brand img
 {
-  height: 100px;
+  height: 125px;
   padding-left: 10px;
+  top: 40%;
 }
 
 .nav-item li a
