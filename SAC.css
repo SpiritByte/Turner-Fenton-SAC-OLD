@@ -562,8 +562,8 @@ font-size: 36px;
 /*---Footer Section---*/
 #footer
 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: black;
   background-color: #5D5C61;
   text-align: center;
